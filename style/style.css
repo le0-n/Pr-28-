@@ -12,7 +12,7 @@
   min-width: 700px;
   width: 100%;
   height: 100vh;
-  background: url("/-28-/img/Background.jpg") 50%/cover;
+  background: linear-gradient(90deg, hsl(354, 95%, 24%) 0%, hsl(234, 70%, 24%) 100%);
   overflow: hidden;
 }
 .container .nav {
