@@ -1,0 +1,80 @@
+@media screen and (max-width: 1300px) {
+  .container .content-1 .top .conList {
+    flex-direction: column;
+  }
+  .container .content-1 .top .conList .line {
+    display: none;
+  }
+}
+@media screen and (max-width: 978px) {
+  .container .nav .left .leftSearch {
+    display: flex;
+  }
+  .container .nav .left .logo {
+    display: none;
+  }
+  .container .nav .left .socialMedia {
+    display: none;
+  }
+  .container .nav .center .centerLogo {
+    display: flex;
+  }
+  .container .nav .center .centerSocialMedia {
+    display: block;
+  }
+  .container .nav .right .search {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container .nav .left {
+    flex-direction: row;
+    gap: 1vw;
+  }
+  .container .nav .left .burgMenu {
+    display: flex;
+  }
+  .container .nav .center {
+    position: relative;
+  }
+  .container .nav .center .centerLogo {
+    display: flex;
+  }
+  .container .nav .center .centerSocialMedia {
+    display: block;
+  }
+  .container .nav .center .centerList {
+    position: absolute;
+    width: 100vw;
+    height: 99.2vh;
+    top: 0;
+    flex-direction: column;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    transform: translate(0, -100%);
+  }
+  .container .nav .center .centerList .btnCloser {
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transition: all 0.3s ease;
+  }
+  .container .nav .center .centerList .btnCloser:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+  }
+  .container .nav .center .centerList .centerListLogo {
+    display: flex;
+  }
+  .container .nav .center .centerList .centerListLogo h1 {
+    font-size: 50px;
+  }
+  .container .nav .center .centerList .centerListLogo img {
+    width: 40px;
+  }
+  .container .nav .center .centerList a {
+    text-align: center;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=media.css.map */

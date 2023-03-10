@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Qanelas";
+}
+
+.container {
+  min-width: 700px;
+  width: 100%;
+  height: 100vh;
+  background: url("/-28-/img/Background.jpg") 50%/cover;
+  overflow: hidden;
+}
+.container .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 0;
+}
+.container .nav .left {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .nav .left .burgMenu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: white;
+  font-size: 18px;
+  border: none;
+  transition: all 0.5s ease;
+}
+.container .nav .left .burgMenu:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px white;
+}
+.container .nav .left .leftSearch {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: white;
+  font-size: 18px;
+  border: none;
+  transition: all 0.5s ease;
+}
+.container .nav .left .leftSearch:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px white;
+}
+.container .nav .left .logo {
+  display: flex;
+  cursor: pointer;
+}
+.container .nav .left .logo h1 {
+  font-weight: 800;
+  color: #3657CB;
+}
+.container .nav .left .logo h1 span {
+  color: white;
+}
+.container .nav .left .socialMedia ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+.container .nav .left .socialMedia ul a {
+  font-size: 18px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.container .nav .left .socialMedia ul a:hover {
+  color: #3657CB;
+}
+.container .nav .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+.container .nav .center .centerLogo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container .nav .center .centerLogo h1 {
+  font-weight: 800;
+  color: #3657CB;
+}
+.container .nav .center .centerLogo h1 span {
+  color: white;
+}
+.container .nav .center .centerSocialMedia {
+  display: none;
+}
+.container .nav .center .centerSocialMedia ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.container .nav .center .centerSocialMedia ul a {
+  font-size: 18px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.container .nav .center .centerSocialMedia ul a:hover {
+  color: #052dc0;
+}
+.container .nav .center ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 3%;
+}
+.container .nav .center ul .btnCloser {
+  display: none;
+  color: white;
+  font-size: 60px;
+}
+.container .nav .center ul .centerListLogo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container .nav .center ul .centerListLogo h1 {
+  font-weight: 800;
+  color: #3657CB;
+}
+.container .nav .center ul .centerListLogo h1 span {
+  color: white;
+}
+.container .nav .center ul a {
+  color: white;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.container .nav .center ul a:hover {
+  color: #052dc0;
+}
+.container .nav .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6vw;
+}
+.container .nav .right button {
+  border: none;
+  background: blue;
+}
+.container .nav .right .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.5s ease;
+}
+.container .nav .right .search:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px white;
+}
+.container .nav .right .signIn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  background: #052dc0;
+  transition: all 0.5s ease;
+}
+.container .nav .right .signIn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #3657CB;
+}
+.container .content-1 {
+  width: 100%;
+}
+.container .content-1 .top {
+  margin: 2% 0;
+  width: 100%;
+}
+.container .content-1 .top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.container .content-1 .top ul .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 5px;
+  border-radius: 20px;
+  background: white;
+}
+.container .content-1 .top ul h1 {
+  font-size: 60px;
+  color: white;
+}
+.container .content-1 .top ul p {
+  font-size: 18px;
+  color: rgb(94, 94, 94);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.container .content-1 .top ul p:hover {
+  color: white;
+}
+.container .content-1 .content {
+  width: 100%;
+}
+.container .content-1 .content ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5vw;
+}
+.container .content-1 .content ul .box {
+  width: 180px;
+  height: 300px;
+}
+.container .content-1 .content ul .box:nth-child(6) .img .rating {
+  background: #CB3F36;
+}
+.container .content-1 .content ul .box .img {
+  position: relative;
+  overflow: hidden;
+}
+.container .content-1 .content ul .box .img .rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+  background: #89CB36;
+  z-index: 1;
+}
+.container .content-1 .content ul .box .img .rating p {
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+}
+.container .content-1 .content ul .box .img img {
+  width: 180px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.container .content-1 .content ul .box .img img:hover {
+  transform: scale(1.1);
+}
+.container .content-1 .content ul .box h4 {
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  padding: 0 1%;
+}
+.container .content-1 .content ul .box p {
+  font-size: 10px;
+  color: yellow;
+  padding: 0 1%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+@media screen and (max-width: 1300px) {
+    .container {
+        .content-1 {
+            .top {
+                .conList {
+                    flex-direction: column;
+                    .line {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 978px) {
+    .container {
+        .nav {
+            .left {
+                .leftSearch {
+                    display: flex;
+                }
+                .logo {
+                    display: none;
+                }
+                .socialMedia {
+                    display: none;
+                }
+            }
+            .center {
+                .centerLogo {
+                    display: flex;
+                }
+                .centerSocialMedia {
+                    display: block;
+                }
+            }
+            .right {
+                .search {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .container {
+        .nav {
+            .left {
+                flex-direction: row;
+                gap: 1vw;
+                .burgMenu {
+                    display: flex;
+                }
+            }
+            .center {
+                position: relative;
+                .centerLogo {
+                    display: flex;
+                }
+                .centerSocialMedia {
+                    display: block;
+                }
+                .centerList {
+                    position: absolute;
+                    width: 100vw;
+                    height: 99.2vh;
+                    top: 0;
+                    flex-direction: column;
+                    backdrop-filter: blur(10px);
+                    transform: translate(0, -100%);
+                    .btnCloser {
+                        display: block;
+                        position: absolute;
+                        top: 10%;
+                        right: 10%;
+                        transition: all .3s ease;
+                        &:hover {
+                            transform: scale(1.1);
+                            text-shadow: 0 0 10px white;
+                        }
+                    }
+                    .centerListLogo {
+                        display: flex;
+                        h1 {
+                            font-size: 50px;
+                        }
+                        img {
+                            width: 40px;
+                        }
+                    }
+                    a {
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
