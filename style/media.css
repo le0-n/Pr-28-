@@ -77,4 +77,20 @@
     text-align: center;
     font-size: 30px;
   }
+}
+@media screen and (max-width: 660px) {
+  .container .content-1 .top .conList {
+    height: 0vh;
+    overflow: hidden;
+  }
+  .container .content-1 .top .conList ul {
+    flex-direction: column;
+  }
+  .container .content-1 .top .categories {
+    display: block;
+  }
+  .container .content-1 .top .categories i {
+    color: white;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=media.css.map */

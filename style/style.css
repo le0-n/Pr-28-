@@ -9,7 +9,6 @@
 }
 
 .container {
-  min-width: 700px;
   width: 100%;
   height: 100vh;
   background: linear-gradient(90deg, hsl(354, 95%, 24%) 0%, hsl(234, 70%, 24%) 100%);
@@ -199,6 +198,11 @@
 .container .content-1 .top {
   margin: 2% 0;
   width: 100%;
+}
+.container .content-1 .top .categories {
+  width: 100%;
+  text-align: center;
+  display: none;
 }
 .container .content-1 .top ul {
   display: flex;

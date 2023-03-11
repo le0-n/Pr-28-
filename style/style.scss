@@ -8,7 +8,7 @@
     font-family: 'Qanelas';
 }
 .container {
-    min-width: 700px;
+    // min-width: 700px;
     width: 100%;
     height: 100vh;
     background: linear-gradient(90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
@@ -199,6 +199,11 @@
         .top {
             margin: 2% 0;
             width: 100%;
+            .categories {
+                width: 100%;
+                text-align: center;
+                display: none;
+            }
             ul {
                 display: flex;
                 justify-content: center;
@@ -232,7 +237,6 @@
 
         .content {
             width: 100%;
-            
             ul {
                 width: 100%;
                 display: flex;

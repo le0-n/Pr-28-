@@ -97,3 +97,25 @@
         }
     }
 }
+@media screen and (max-width: 660px) {
+    .container {
+        .content-1 {
+            .top {
+                .conList {
+                    height: 0vh;
+                    overflow: hidden;
+                    ul {
+                        flex-direction: column;
+                    }
+                }
+                .categories {
+                    display: block;
+                    i {
+                        color: white;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
